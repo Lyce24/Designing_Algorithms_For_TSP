@@ -6,7 +6,7 @@ TSP project - Part 3 (advanced GA operators)
 
 
 <p align="center">
-    Eriksen Liu, Ryan Tang, Ella Ngo 
+    Eriksen Liu
 </p>
 
 
@@ -54,7 +54,7 @@ Similarly, two files will appear in your directory containing the optimal orderi
 With the implementation above, I used <code>popsize = 50</code> and <code>mutrate = 0.96</code> to optimize the <code>challenge.tsv</code>.  
 Then, with the instruction in moodle, I got the following diagram containing <code>ga_baseline.tsv</code>, <code>local.tsv</code>, and <code>tournament.tsv</code>.  
 
-![comp!](/comparison.gif)
+![comp!](./comparison.gif)
 
 ### Memory check
 I used Valgrind to check if there is any memory leakage. Therefore, I typed the following command in the console,  
