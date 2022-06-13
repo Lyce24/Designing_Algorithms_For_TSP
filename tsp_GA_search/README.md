@@ -6,7 +6,7 @@ TSP project - Part 2 (Genetic Algorithm search)
 
 
 <p align="center">
-    Eriksen Liu, Ryan Tang, Ella Ngo 
+    Eriksen Liu
 </p>
 
 
@@ -37,5 +37,5 @@ For example,
 ### Result
 We can compare the efficiency of using GA with randomized search. With the steps in the slide, we are able to get the graph below showing a major improvement in efficiency while using GA.
 
-![five_speed!](/tsp_part2/comparison.gif)
+![five_speed!](./comparison.gif)
 
