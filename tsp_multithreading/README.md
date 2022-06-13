@@ -36,7 +36,7 @@ For 4800H, I collected the data as below,
 
 With the diagram like the following,
 
-![4800H!](4800H.png)
+![4800H!](./4800H.png)
 
 The plotted diagram show that the shortest distance doesn't change based on the numbers of the threads. However, the time used to compute shortest distance decreased over the number of threads. The general trend can be expressed as <code>time = (time used for 1 thread)/(the number of threads using now)</code>. The codes in <code>tsp.cc</code> were built to split one of the threads to compute <code>num_iter / nthreads</code>. So the general trend matches the intention of the codes.
 
@@ -54,7 +54,7 @@ For 3970X, I collected the data as below,
 
 With the diagram like the following,
 
-![3970X!](3970X.png)
+![3970X!](./3970X.png)
 
 Since my home computer can't handle 16 threads well, so the time used is a little bit off from the general trend. But while using 3970X, the data matches perfectly. We can see that the best performance point in the graph above as 12.046s is 37.75x faster than the single-threaded performance as 454.758s. 
 The best performance I got is 7098.91 with the ordering presented in <code>best</code>.tsv.
