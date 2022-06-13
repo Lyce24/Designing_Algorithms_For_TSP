@@ -40,7 +40,7 @@ For example,
 With plotting tools like <code>gnuplot</code>, we can visualize the process and the result. Since the result is random generated as we use <code>uniform_int_distribution</code> with random seed, the following results are randomly generated. Every run will produce different results.      
 For <code>five.tsv</code>, the given file contains a path as shown below,
 
-![five!](tsp_randomized_search/five.gif)
+![five!](./five.gif)
 
 And after typing the following codes into the console as 
 
@@ -52,7 +52,7 @@ And after typing the following codes into the console as
 
 We will get the following diagram to represent the process of finding the shortest path,
 
-![five_speed!](/tsp/speed_five.gif)
+![five_speed!](./speed_five.gif)
 
 And then, we can plot the shortest path using the <code>shortest.tsv</code> produced by <code>./tsp five.tsv</code> in <code>gnuplot</code> as, 
 
@@ -61,20 +61,20 @@ And then, we can plot the shortest path using the <code>shortest.tsv</code> prod
 
 And it produces a diagram as shown below, 
 
-![shortest_five!](/tsp/shortest_five.gif)
+![shortest_five!](./shortest_five.gif)
 
 Similarly, we can find the shortest path for <code>challenge.tsv</code> as well.  
 The original file looks like, 
 
-![challenge!](tsp_randomized_search/challenge.gif)
+![challenge!](./challenge.gif)
 
 And the process of finding the shortest path can be shown as following diagram,
 
-![speed_challenge!](/tsp/speed_challenge.gif)
+![speed_challenge!](./speed_challenge.gif)
 
 Then the optimal path with shortest distance can be shown as,
 
-![shortest_challenge!](/tsp/shortest_challenge.gif)
+![shortest_challenge!](./shortest_challenge.gif)
 
 ### Memory check
 I typed the following codes into the terminal to test if there is any memory leakage,
