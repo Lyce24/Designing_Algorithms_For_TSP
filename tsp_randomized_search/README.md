@@ -40,7 +40,7 @@ For example,
 With plotting tools like <code>gnuplot</code>, we can visualize the process and the result. Since the result is random generated as we use <code>uniform_int_distribution</code> with random seed, the following results are randomly generated. Every run will produce different results.      
 For <code>five.tsv</code>, the given file contains a path as shown below,
 
-![five!](Solving_TSP_Problem/tsp_randomized_search/five.gif)
+![five!](tsp_randomized_search/five.gif)
 
 And after typing the following codes into the console as 
 
