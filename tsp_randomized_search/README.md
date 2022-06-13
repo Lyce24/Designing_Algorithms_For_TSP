@@ -6,7 +6,7 @@ TSP project - Part 1 (random search)
 
 
 <p align="center">
-    Eriksen Liu, Ryan Tang, Ella Ngo 
+    Eriksen Liu
 </p>
 
 ### cities.hh
