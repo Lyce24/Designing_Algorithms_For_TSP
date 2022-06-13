@@ -40,7 +40,7 @@ For example,
 With plotting tools like <code>gnuplot</code>, we can visualize the process and the result. Since the result is random generated as we use <code>uniform_int_distribution</code> with random seed, the following results are randomly generated. Every run will produce different results.      
 For <code>five.tsv</code>, the given file contains a path as shown below,
 
-![five!](/tsp/five.gif)
+![five!](Solving_TSP_Problem/tsp_randomized_search/five.gif)
 
 And after typing the following codes into the console as 
 
@@ -66,7 +66,7 @@ And it produces a diagram as shown below,
 Similarly, we can find the shortest path for <code>challenge.tsv</code> as well.  
 The original file looks like, 
 
-![challenge!](/tsp/challenge.gif)
+![challenge!](tsp_randomized_search/challenge.gif)
 
 And the process of finding the shortest path can be shown as following diagram,
 
